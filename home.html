@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Home Page</title>
+  <link href='https://fonts.googleapis.com/css?family=Kaushan Script' rel='stylesheet'>
+  <style>
+   body {
+  
+    background: linear-gradient(rgba(0.6,0.6,0.6,0.6),black),url(./images/Clean-India-Green-India.jpeg);
+    background-size: cover;
+    background-repeat: repeat;
+    position: relative;
+    height: 100vh;
+    font-family: Kaushan script;
+    
+}
+
+
+h1 {
+  font-size: 65px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  
+}
+
+.button-container {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  
+}
+
+.button {
+  display: inline-block;
+  position: relative;
+  width: 220px;
+  height: 150px;
+  text-decoration: none;;
+  border-radius: 10px;
+  background-color: #ff6384;
+  color: black;
+  text-align: center;
+  line-height: 150px;
+  font-size: 20px;
+  margin: 30px;
+  box-shadow: 1px solid red;
+  font-weight: bold;
+  font-style: italic;
+  transform: scale(1.1);
+}
+
+.button:hover {
+  background-color:ghostwhite;
+  
+}
+.navbar{
+    width: 85%;
+    top: 5%;
+    margin: auto;
+    padding: 35px 0;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+}
+.navbar ul li a{
+    text-decoration: none;
+    color: azure;
+    text-transform: uppercase;
+}
+.navbar ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    top: 80%;
+    background: #ff6384;
+    position: absolute;
+    left: 0;
+    bottom: -20 px;
+    transition: 0.5s;
+    font-family: Kaushan script;
+    border: #fff;
+}
+
+.navbar ul li:hover::after{
+    width: 100%;
+}
+
+
+  </style>
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="te.jpg" class="logo">
+            <ul>
+                <li><a href="about.html">About us</a></li>
+                <li><a href="help.html">Help</a></li>
+                <li><a href="contact.html">Contact us</a></li>
+            </ul>
+        </div>
+  
+    <div class="button-container">
+      <h1>Welcome to Wasteco</h1>
+      <a href="loc.html" class="button">PLASTIC WASTE</a>
+      <a href="#" class="button">ELECTRONIC WASTE</a>
+      <a href="#" class="button">ORGANIC WASTE</a>
+    </div>
+
+  
+</body>
+
+</html>
